@@ -1,0 +1,14 @@
+plugins {
+	id('java')
+}
+
+task task1 {
+    println 'Custom task'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+
