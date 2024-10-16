@@ -1,0 +1,71 @@
+name: "Basic Issue Template"
+description: "Provide a clear description of the issue or feature request."
+title: "<feat|fix|docs|style|refactor|perf|test|chore>: <title>"
+labels: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Description
+        Provide a clear and concise description of the issue or feature.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "What is the issue about?"
+      placeholder: "Describe the problem or feature"
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Steps to Reproduce
+        Please list the steps to reproduce the issue:
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: "How can we reproduce the issue?"
+      placeholder: "List the steps"
+  
+  - type: markdown
+    attributes:
+      value: |
+        ### Expected Behavior
+        Describe what you expected to happen.
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior"
+      description: "What did you expect to happen?"
+      placeholder: "Describe the expected outcome"
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Actual Behavior
+        Describe what actually happened.
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual Behavior"
+      description: "What actually happened?"
+      placeholder: "Describe the actual outcome"
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Additional Information
+        Provide any additional context or screenshots.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Information"
+      description: "Any additional context?"
+      placeholder: "Any other details?"

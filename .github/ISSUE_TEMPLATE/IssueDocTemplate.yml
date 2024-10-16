@@ -1,0 +1,58 @@
+name: "Documentation Issue"
+description: "Use this template for documentation-related issues or improvements."
+title: "docs: <short description>"
+labels: ["documentation"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Summary
+        Provide a brief overview of the documentation issue or improvement.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "Describe the documentation issue or improvement briefly."
+      placeholder: "Write the summary here..."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Affected Pages
+        Which documentation pages are affected by this issue or improvement?
+
+  - type: textarea
+    id: affected-pages
+    attributes:
+      label: "Affected Pages"
+      description: "List the pages or sections affected."
+      placeholder: "List the pages..."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Expected Improvements
+        Describe the expected improvements or changes you want to make to the documentation.
+
+  - type: textarea
+    id: expected-improvements
+    attributes:
+      label: "Expected Improvements"
+      description: "What changes or improvements are expected?"
+      placeholder: "Describe the improvements..."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Information
+        Provide any other context or information that could be helpful.
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: "Additional Information"
+      description: "Any additional information or context?"
+      placeholder: "Provide any additional information..."
